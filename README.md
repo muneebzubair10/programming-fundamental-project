@@ -27,24 +27,8 @@ Finally, the system offers flexible payment options through the main function. C
 
 ---
 
-### Implementation Highlights
-
-This system leverages structures to manage data related to products, vouchers, and cards. Each structure is carefully designed to store relevant details, ensuring that the system remains organized and scalable. Persistent data storage is achieved using file handling techniques, allowing the system to save and retrieve data from files such as `product.txt`, `voucher.txt`, and `card.txt`. Temporary files are used to safely modify existing data without risking corruption.
-
-A key feature of the system is its **modular design**. Each functionality is implemented as a separate function, making the code more readable and easier to maintain. For example, product management, voucher handling, and card management are all encapsulated within their respective functions. This approach not only improves the clarity of the program but also simplifies future enhancements or debugging.
-
-User interaction is a priority, with clear prompts guiding both vendors and customers through their respective workflows. For vendors, the system facilitates the seamless addition of products, vouchers, and cards, while customers can enjoy a straightforward shopping experience, complete with detailed billing and discount applications.
-
----
-
-### User Experience and Benefits
-
-The system ensures that vendors can efficiently manage their inventory and promotional strategies, while customers benefit from a transparent and user-friendly shopping process. Product discounts, vouchers, and card-based offers are all handled dynamically, ensuring that customers receive accurate billing. The real-time update of inventory and validation of discounts contribute to the reliability of the system.
-
-For vendors, the ability to customize discounts and create promotional vouchers adds flexibility to their marketing efforts. The system also allows vendors to collaborate with banks by offering card-specific discounts, which can help drive sales and foster partnerships. Customers, on the other hand, benefit from a variety of discounts, making their shopping experience cost-effective and rewarding.
-
----
 
 ### Conclusion
 
-The **Vendor and Customer Management System** is a robust solution for managing product inventories, discounts, and payments. Its modular design, efficient use of file handling, and clear user interaction make it a valuable tool for both vendors and customers. By integrating multiple discount mechanisms and offering flexible payment options, the system ensures a seamless and rewarding experience for all stakeholders. This project serves as a foundation for further enhancements, such as user authentication, advanced reporting, and support for additional payment methods.
+The Vendor and Customer Management System is a robust solution for managing product inventories, discounts, and payments. Its modular design, efficient use of file handling, and clear user interaction make it a valuable tool for both vendors and customers. By integrating multiple discount mechanisms and offering flexible payment options, the system ensures a seamless and rewarding experience for all stakeholders. This project serves as a foundation for further enhancements, such as user authentication, advanced reporting, and support for additional payment methods.
+
